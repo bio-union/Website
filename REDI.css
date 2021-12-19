@@ -1,0 +1,629 @@
+ .u-section-1 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url("images/Redi_first_block.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 668px;
+}
+
+.u-section-1 .u-image-1 {
+  width: 473px;
+  height: 136px;
+  margin: 163px auto 0;
+}
+
+.u-section-1 .u-text-1 {
+  text-shadow: 0px 0px 8px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 0 0 rgba(0,0,0,0);
+  font-weight: normal;
+  margin: 22px auto 0;
+}
+
+.u-section-1 .u-list-1 {
+  width: 706px;
+  margin: 48px auto 0;
+}
+
+.u-section-1 .u-repeater-1 {
+  min-height: 91px;
+  grid-template-columns: 33.3333% 33.3333% 33.3333%;
+  grid-gap: 0px 0px;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 10px;
+}
+
+.u-section-1 .u-btn-1 {
+  border-style: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  background-image: none;
+  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  margin: 0 auto;
+  padding: 15px 51px 16px;
+}
+
+.u-section-1 .u-container-layout-2 {
+  padding: 10px;
+}
+
+.u-section-1 .u-btn-2 {
+  border-style: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  background-image: none;
+  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  margin: 0 auto;
+  padding: 15px 51px 16px;
+}
+
+.u-section-1 .u-container-layout-3 {
+  padding: 10px;
+}
+
+.u-section-1 .u-btn-3 {
+  border-style: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  background-image: none;
+  box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  margin: 0 auto;
+  padding: 15px 51px 16px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 559px;
+  }
+
+  .u-section-1 .u-image-1 {
+    margin-top: 103px;
+  }
+
+  .u-section-1 .u-text-1 {
+    width: auto;
+    margin-left: 41px;
+    margin-right: 41px;
+  }
+
+  .u-section-1 .u-list-1 {
+    width: 713px;
+    margin-top: 26px;
+    margin-bottom: 60px;
+  }
+
+  .u-section-1 .u-repeater-1 {
+    grid-template-columns: calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px) calc(33.3333% - 6.66667px);
+    grid-gap: 10px 10px;
+  }
+}
+
+@media (max-width: 991px) {
+   .u-section-1 {
+    background-position: 37.26% 53.83%;
+    background-size: auto 115%;
+  }
+
+  .u-section-1 .u-sheet-1 {
+    min-height: 428px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+
+  .u-section-1 .u-list-1 {
+    height: auto;
+    min-height: 273px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
+  }
+
+  .u-section-1 .u-repeater-1 {
+    min-height: 273px;
+    grid-template-columns: 50% 50%;
+  }
+
+  .u-section-1 .u-btn-1 {
+    padding-left: 71px;
+    padding-right: 71px;
+  }
+
+  .u-section-1 .u-btn-2 {
+    padding-left: 71px;
+    padding-right: 71px;
+  }
+
+  .u-section-1 .u-btn-3 {
+    padding-left: 71px;
+    padding-right: 71px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 321px;
+  }
+
+  .u-section-1 .u-repeater-1 {
+    grid-template-columns: 100%;
+  }
+}
+
+@media (max-width: 575px) {
+   .u-section-1 {
+    background-position: 28.68% 51.52%;
+  }
+
+  .u-section-1 .u-sheet-1 {
+    min-height: 164px;
+  }
+
+  .u-section-1 .u-image-1 {
+    width: 340px;
+    height: 98px;
+  }
+} .u-section-2 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("images/Redi_second_block.jpg");
+  background-position: 50% 50%;
+  min-height: 679px;
+}
+
+.u-section-2 .u-group-1 {
+  width: calc(((100% - 1140px) / 2) + 668px);
+  min-height: 370px;
+  background-image: none;
+  margin: 255px 0 54px auto;
+}
+
+.u-section-2 .u-container-layout-1 {
+  padding: 18px 0;
+}
+
+.u-section-2 .u-text-1 {
+  text-shadow: 2px 2px 8px rgba(128,128,128,1);
+  line-height: 52.8px;
+  font-weight: normal;
+  margin: 0 54px;
+}
+
+.u-section-2 .u-text-2 {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 2.2;
+  background-image: none;
+  font-style: italic;
+  text-shadow: 2px 2px 8px rgba(128,128,128,1);
+  margin: 0 43px;
+}
+
+@media (max-width: 1199px) {
+   .u-section-2 {
+    min-height: 560px;
+  }
+
+  .u-section-2 .u-group-1 {
+    width: calc(((100% - 940px) / 2) + 668px);
+  }
+}
+
+@media (max-width: 991px) {
+   .u-section-2 {
+    min-height: 429px;
+  }
+
+  .u-section-2 .u-group-1 {
+    width: calc(((100% - 720px) / 2) + 668px);
+  }
+}
+
+@media (max-width: 767px) {
+   .u-section-2 {
+    min-height: 322px;
+  }
+
+  .u-section-2 .u-group-1 {
+    width: calc(((100% - 540px) / 2) + 540px);
+  }
+
+  .u-section-2 .u-text-1 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-2 .u-text-2 {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 575px) {
+   .u-section-2 {
+    min-height: 203px;
+  }
+
+  .u-section-2 .u-group-1 {
+    width: calc(((100% - 340px) / 2) + 340px);
+  }
+} .u-section-3 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("images/Redi_third_block.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-3 .u-sheet-1 {
+  min-height: 668px;
+}
+
+.u-section-3 .u-image-1 {
+  width: 656px;
+  height: 615px;
+  margin: 27px auto 0 35px;
+}
+
+.u-section-3 .u-text-1 {
+  text-shadow: 0 -2px 8px rgba(128,128,128,1);
+  font-size: 1rem;
+  line-height: 2.2;
+  background-image: none;
+  text-align: justify;
+  font-style: normal;
+  font-weight: normal;
+  margin: -249px 796px 0 35px;
+}
+
+.u-section-3 .u-image-2 {
+  width: 149px;
+  height: 227px;
+  margin: -557px 80px 0 auto;
+}
+
+.u-section-3 .u-text-2 {
+  text-shadow: 0 -2px 8px rgba(128,128,128,1);
+  line-height: 52.8px;
+  font-weight: normal;
+  margin: 35px 0 0 804px;
+}
+
+.u-section-3 .u-text-3 {
+  text-shadow: 0 -2px 8px rgba(128,128,128,1);
+  font-size: 1rem;
+  line-height: 2.2;
+  background-image: none;
+  text-align: justify;
+  font-style: normal;
+  font-weight: normal;
+  margin: 15px 0 48px 830px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 551px;
+  }
+
+  .u-section-3 .u-text-1 {
+    margin-right: 596px;
+  }
+
+  .u-section-3 .u-text-2 {
+    margin-left: 604px;
+  }
+
+  .u-section-3 .u-text-3 {
+    margin-left: 630px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 422px;
+  }
+
+  .u-section-3 .u-text-1 {
+    margin-right: 376px;
+  }
+
+  .u-section-3 .u-text-2 {
+    margin-left: 384px;
+  }
+
+  .u-section-3 .u-text-3 {
+    margin-left: 410px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 208px;
+  }
+
+  .u-section-3 .u-image-1 {
+    width: 540px;
+    height: 506px;
+    margin-left: 0;
+  }
+
+  .u-section-3 .u-text-1 {
+    margin-top: -140px;
+    margin-right: 231px;
+    margin-left: 0;
+  }
+
+  .u-section-3 .u-text-2 {
+    margin-left: 204px;
+  }
+
+  .u-section-3 .u-text-3 {
+    margin-left: 230px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-3 .u-sheet-1 {
+    min-height: 21px;
+  }
+
+  .u-section-3 .u-image-1 {
+    width: 340px;
+    height: 319px;
+  }
+
+  .u-section-3 .u-text-1 {
+    margin-top: 47px;
+    margin-right: 31px;
+  }
+
+  .u-section-3 .u-text-2 {
+    margin-left: 4px;
+  }
+
+  .u-section-3 .u-text-3 {
+    margin-left: 30px;
+  }
+} .u-section-4 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("images/Redi_block_41.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-4 .u-sheet-1 {
+  min-height: 668px;
+}
+
+.u-section-4 .u-text-1 {
+  text-shadow: 2px 2px 8px rgba(128,128,128,1);
+  line-height: 52.8px;
+  font-weight: normal;
+  margin: 198px 0 0 559px;
+}
+
+.u-section-4 .u-text-2 {
+  text-shadow: 2px 2px 8px rgba(128,128,128,1);
+  font-size: 1rem;
+  line-height: 2.2;
+  background-image: none;
+  text-align: justify;
+  font-style: normal;
+  font-weight: normal;
+  margin: 47px 0 0 570px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-4 .u-sheet-1 {
+    min-height: 551px;
+  }
+
+  .u-section-4 .u-text-1 {
+    margin-left: 359px;
+  }
+
+  .u-section-4 .u-text-2 {
+    width: auto;
+    margin-top: 18px;
+    margin-bottom: 60px;
+    margin-left: 370px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-4 .u-sheet-1 {
+    min-height: 422px;
+  }
+
+  .u-section-4 .u-text-1 {
+    margin-left: 139px;
+  }
+
+  .u-section-4 .u-text-2 {
+    margin-left: 150px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-4 .u-sheet-1 {
+    min-height: 698px;
+  }
+
+  .u-section-4 .u-text-1 {
+    margin-left: 0;
+  }
+
+  .u-section-4 .u-text-2 {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-4 .u-sheet-1 {
+    min-height: 415px;
+  }
+} .u-section-5 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("images/Redi_block_5.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-5 .u-sheet-1 {
+  min-height: 668px;
+}
+
+.u-section-5 .u-text-1 {
+  text-shadow: 0 -2px 8px rgba(128,128,128,1);
+  line-height: 52.8px;
+  font-weight: normal;
+  margin: 82px 601px 0 38px;
+}
+
+.u-section-5 .u-text-2 {
+  text-shadow: 0 -2px 8px rgba(128,128,128,1);
+  text-align: justify;
+  line-height: 25.6px;
+  font-style: normal;
+  font-weight: normal;
+  margin: 19px 601px 0 38px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-5 .u-sheet-1 {
+    min-height: 551px;
+  }
+
+  .u-section-5 .u-text-1 {
+    margin-right: 439px;
+    margin-left: 0;
+  }
+
+  .u-section-5 .u-text-2 {
+    width: auto;
+    margin: 11px 538px 60px 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-5 .u-sheet-1 {
+    min-height: 422px;
+  }
+
+  .u-section-5 .u-text-1 {
+    margin-right: 219px;
+  }
+
+  .u-section-5 .u-text-2 {
+    margin-right: 318px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-5 .u-sheet-1 {
+    min-height: 698px;
+  }
+
+  .u-section-5 .u-text-1 {
+    margin-right: 39px;
+  }
+
+  .u-section-5 .u-text-2 {
+    margin-right: 138px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-5 .u-sheet-1 {
+    min-height: 415px;
+  }
+
+  .u-section-5 .u-text-1 {
+    margin-right: 0;
+  }
+
+  .u-section-5 .u-text-2 {
+    margin-right: 0;
+  }
+} .u-section-6 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("images/Redi_block_6.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-6 .u-sheet-1 {
+  min-height: 668px;
+}
+
+.u-section-6 .u-text-1 {
+  text-shadow: 0 -2px 8px rgba(128,128,128,1);
+  line-height: 52.8px;
+  font-weight: normal;
+  margin: 99px 772px 0 61px;
+}
+
+.u-section-6 .u-text-2 {
+  text-shadow: 0 -2px 8px rgba(128,128,128,1);
+  text-align: justify;
+  margin: 9px 772px 60px 61px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-6 .u-sheet-1 {
+    min-height: 551px;
+  }
+
+  .u-section-6 .u-text-1 {
+    margin-right: 633px;
+    margin-left: 0;
+  }
+
+  .u-section-6 .u-text-2 {
+    width: auto;
+    margin-top: 26px;
+    margin-right: 633px;
+    margin-left: 0;
+    line-height: 25.6px;
+    font-style: normal;
+    font-weight: normal;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-6 .u-sheet-1 {
+    min-height: 422px;
+  }
+
+  .u-section-6 .u-text-1 {
+    margin-right: 413px;
+  }
+
+  .u-section-6 .u-text-2 {
+    margin-right: 413px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-6 .u-sheet-1 {
+    min-height: 698px;
+  }
+
+  .u-section-6 .u-text-1 {
+    margin-right: 233px;
+  }
+
+  .u-section-6 .u-text-2 {
+    margin-right: 233px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-6 .u-sheet-1 {
+    min-height: 415px;
+  }
+
+  .u-section-6 .u-text-1 {
+    margin-right: 33px;
+  }
+
+  .u-section-6 .u-text-2 {
+    margin-right: 33px;
+  }
+}
