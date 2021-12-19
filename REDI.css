@@ -562,6 +562,9 @@
 .u-section-6 .u-text-2 {
   text-shadow: 0 -2px 8px rgba(128,128,128,1);
   text-align: justify;
+  line-height: 25.6px;
+  font-style: normal;
+  font-weight: normal;
   margin: 9px 772px 60px 61px;
 }
 
@@ -580,9 +583,6 @@
     margin-top: 26px;
     margin-right: 633px;
     margin-left: 0;
-    line-height: 25.6px;
-    font-style: normal;
-    font-weight: normal;
   }
 }
 

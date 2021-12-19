@@ -207,6 +207,10 @@
 }
 
 @media (max-width: 1199px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 1159px;
+  }
+
   .u-section-2 .u-text-1 {
     margin-right: 0;
     margin-left: 438px;
@@ -216,14 +220,29 @@
     margin-left: 414px;
   }
 
+  .u-section-2 .u-image-1 {
+    width: 336px;
+    height: 249px;
+    margin-top: 15px;
+  }
+
   .u-section-2 .u-text-3 {
-    margin-right: 310px;
-    margin-left: 232px;
+    width: auto;
+    margin-top: 418px;
+    margin-right: 423px;
+    margin-left: 119px;
+  }
+
+  .u-section-2 .u-image-2 {
+    margin-top: -480px;
+    margin-right: 55px;
   }
 
   .u-section-2 .u-text-4 {
-    margin-right: 424px;
-    margin-left: 0;
+    width: auto;
+    margin-top: -504px;
+    margin-right: 529px;
+    margin-left: 78px;
   }
 }
 
@@ -236,13 +255,19 @@
     margin-left: 194px;
   }
 
+  .u-section-2 .u-image-1 {
+    margin-top: -100px;
+  }
+
   .u-section-2 .u-text-3 {
-    margin-right: 200px;
-    margin-left: 122px;
+    margin-right: 313px;
+    margin-left: 9px;
   }
 
   .u-section-2 .u-text-4 {
+    margin-top: -388px;
     margin-right: 204px;
+    margin-left: 0;
   }
 }
 
@@ -256,8 +281,8 @@
   }
 
   .u-section-2 .u-text-3 {
-    margin-right: 110px;
-    margin-left: 32px;
+    margin-right: 142px;
+    margin-left: 0;
   }
 
   .u-section-2 .u-text-4 {
@@ -267,7 +292,7 @@
 
 @media (max-width: 575px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 815px;
+    min-height: 1093px;
   }
 
   .u-section-2 .u-text-1 {
@@ -279,14 +304,11 @@
   }
 
   .u-section-2 .u-image-1 {
-    width: 340px;
-    height: 252px;
-    margin-left: 0;
+    margin-left: 4px;
   }
 
   .u-section-2 .u-text-3 {
     margin-right: 0;
-    margin-left: 0;
   }
 
   .u-section-2 .u-image-2 {
@@ -296,7 +318,7 @@
   }
 
   .u-section-2 .u-text-4 {
-    margin-right: 0;
+    margin-right: 7px;
   }
 } .u-section-3 {
   background-image: none;
@@ -321,27 +343,30 @@
 }
 
 @media (max-width: 1199px) {
+  .u-section-3 .u-image-1 {
+    margin-right: auto;
+  }
+
   .u-section-3 .u-text-1 {
-    margin-top: -357px;
-    margin-right: 585px;
+    width: auto;
+    margin-top: -367px;
+    margin-right: 695px;
   }
 
   .u-section-3 .u-text-2 {
-    margin-left: 608px;
+    width: auto;
+    margin-top: -323px;
+    margin-left: 695px;
   }
 }
 
 @media (max-width: 991px) {
-  .u-section-3 .u-image-1 {
-    margin-right: 133px;
-  }
-
   .u-section-3 .u-text-1 {
-    margin-right: 365px;
+    margin-right: 475px;
   }
 
   .u-section-3 .u-text-2 {
-    margin-left: 388px;
+    margin-left: 475px;
   }
 }
 
@@ -353,16 +378,16 @@
   .u-section-3 .u-image-1 {
     width: 540px;
     height: 304px;
-    margin-right: 0;
   }
 
   .u-section-3 .u-text-1 {
-    margin-right: 185px;
+    margin-top: -357px;
+    margin-right: 295px;
   }
 
   .u-section-3 .u-text-2 {
     margin-top: -161px;
-    margin-left: 208px;
+    margin-left: 295px;
   }
 }
 
@@ -377,12 +402,12 @@
   }
 
   .u-section-3 .u-text-1 {
-    margin-right: 0;
+    margin-right: 95px;
   }
 
   .u-section-3 .u-text-2 {
     margin-top: -48px;
-    margin-left: 8px;
+    margin-left: 95px;
   }
 } .u-section-4 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("images/Boreas_block_2.jpg");
@@ -491,21 +516,29 @@
 
 @media (max-width: 1199px) {
   .u-section-5 .u-sheet-1 {
-    min-height: 551px;
+    min-height: 651px;
   }
 
   .u-section-5 .u-text-1 {
+    width: auto;
+    margin-top: 270px;
     margin-right: 586px;
   }
 
   .u-section-5 .u-text-2 {
+    width: auto;
     margin-right: 535px;
+  }
+
+  .u-section-5 .u-text-3 {
+    margin-top: 15px;
+    margin-bottom: 37px;
   }
 }
 
 @media (max-width: 991px) {
   .u-section-5 .u-sheet-1 {
-    min-height: 422px;
+    min-height: 499px;
   }
 
   .u-section-5 .u-text-1 {
@@ -519,7 +552,7 @@
 
 @media (max-width: 767px) {
   .u-section-5 .u-sheet-1 {
-    min-height: 317px;
+    min-height: 374px;
   }
 
   .u-section-5 .u-text-1 {
@@ -537,7 +570,7 @@
 
 @media (max-width: 575px) {
   .u-section-5 .u-sheet-1 {
-    min-height: 200px;
+    min-height: 235px;
   }
 
   .u-section-5 .u-text-1 {
