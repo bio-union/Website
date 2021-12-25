@@ -17,6 +17,7 @@
   text-shadow: 0px 0px 8px rgba(0,0,0,0.5);
   box-shadow: 0px 0px 0 0 rgba(0,0,0,0);
   font-weight: normal;
+  font-size: 1.125rem;
   margin: 29px auto 0;
 }
 
@@ -177,10 +178,12 @@
   line-height: 52.8px;
   font-weight: normal;
   text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+  font-size: 3rem;
   margin: 27px 24px 0 614px;
 }
 
 .u-section-2 .u-text-2 {
+  font-size: 1rem;
   margin: 24px 0 0 614px;
 }
 
@@ -193,6 +196,7 @@
 .u-section-2 .u-text-3 {
   line-height: 25.6px;
   font-weight: normal;
+  font-size: 1rem;
   margin: 260px 410px 0 332px;
 }
 
@@ -203,6 +207,7 @@
 }
 
 .u-section-2 .u-text-4 {
+  font-size: 1rem;
   margin: -388px 580px 60px 44px;
 }
 
@@ -256,7 +261,9 @@
   }
 
   .u-section-2 .u-image-1 {
-    margin-top: -100px;
+    margin-top: 20px;
+    margin-right: 0;
+    margin-left: 194px;
   }
 
   .u-section-2 .u-text-3 {
@@ -265,9 +272,9 @@
   }
 
   .u-section-2 .u-text-4 {
-    margin-top: -388px;
-    margin-right: 204px;
-    margin-left: 0;
+    margin-top: 20px;
+    margin-right: 55px;
+    margin-left: auto;
   }
 }
 
@@ -280,45 +287,54 @@
     margin-left: 14px;
   }
 
+  .u-section-2 .u-image-1 {
+    margin-left: 14px;
+  }
+
   .u-section-2 .u-text-3 {
     margin-right: 142px;
     margin-left: 0;
-  }
-
-  .u-section-2 .u-text-4 {
-    margin-right: 24px;
   }
 }
 
 @media (max-width: 575px) {
   .u-section-2 .u-sheet-1 {
-    min-height: 1093px;
+    min-height: 1274px;
   }
 
   .u-section-2 .u-text-1 {
+    font-size: 1rem;
+    font-weight: 700;
     margin-left: 0;
   }
 
   .u-section-2 .u-text-2 {
+    font-size: 0.75rem;
     margin-left: 0;
   }
 
   .u-section-2 .u-image-1 {
-    margin-left: 4px;
+    margin-left: 0;
   }
 
   .u-section-2 .u-text-3 {
+    font-size: 0.75rem;
+    margin-top: 518px;
     margin-right: 0;
   }
 
   .u-section-2 .u-image-2 {
-    width: 340px;
-    height: 425px;
-    margin-right: 0;
+    height: 365px;
+    width: 292px;
+    margin-top: -453px;
+    margin-right: auto;
   }
 
   .u-section-2 .u-text-4 {
-    margin-right: 7px;
+    font-size: 0.75rem;
+    margin-top: -505px;
+    margin-left: 0;
+    margin-right: 0;
   }
 } .u-section-3 {
   background-image: none;
@@ -335,10 +351,12 @@
 }
 
 .u-section-3 .u-text-1 {
+  font-size: 1rem;
   margin: -330px 785px 0 0;
 }
 
 .u-section-3 .u-text-2 {
+  font-size: 1rem;
   margin: -234px 0 60px 808px;
 }
 
@@ -393,24 +411,32 @@
 
 @media (max-width: 575px) {
   .u-section-3 .u-sheet-1 {
-    min-height: 165px;
+    min-height: 595px;
   }
 
   .u-section-3 .u-image-1 {
-    width: 340px;
     height: 191px;
+    margin-top: 202px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
   }
 
   .u-section-3 .u-text-1 {
-    margin-right: 95px;
+    width: 245px;
+    font-size: 0.75rem;
+    margin-top: -393px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .u-section-3 .u-text-2 {
-    margin-top: -48px;
-    margin-left: 95px;
+    width: 245px;
+    font-size: 0.75rem;
+    margin: 253px auto 57px;
   }
 } .u-section-4 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("images/Boreas_block_2.jpg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/Boreas_block_2.jpg");
   background-position: 50% 45.23%;
 }
 
@@ -423,10 +449,13 @@
   font-weight: normal;
   text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
   text-align: right;
+  font-size: 3rem;
   margin: 83px 0 0 796px;
 }
 
 .u-section-4 .u-text-2 {
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+  font-size: 1rem;
   margin: 0 0 60px 796px;
 }
 
@@ -474,15 +503,22 @@
 
 @media (max-width: 575px) {
   .u-section-4 .u-sheet-1 {
-    min-height: 200px;
+    min-height: 345px;
   }
 
   .u-section-4 .u-text-1 {
+    font-size: 1rem;
+    font-weight: 700;
+    width: auto;
+    margin-top: 180px;
     margin-left: 0;
   }
 
   .u-section-4 .u-text-2 {
+    font-size: 0.75rem;
+    width: auto;
     margin-left: 0;
+    margin-bottom: 56px;
   }
 } .u-section-5 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("images/Boreas_block_31.jpg");
@@ -495,17 +531,21 @@
 
 .u-section-5 .u-text-1 {
   text-shadow: 2px 2px 8px rgba(128,128,128,1);
+  font-size: 3rem;
+  font-weight: normal;
   margin: 322px 786px 0 0;
 }
 
 .u-section-5 .u-text-2 {
   text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+  font-size: 1rem;
   margin: 0 735px 0 0;
 }
 
 .u-section-5 .u-text-3 {
   text-shadow: 2px 2px 8px rgba(128,128,128,1);
   width: 693px;
+  font-size: 1rem;
   margin: 0 auto;
 }
 
@@ -574,14 +614,18 @@
   }
 
   .u-section-5 .u-text-1 {
+    font-size: 1rem;
+    font-weight: 700;
     margin-right: 0;
   }
 
   .u-section-5 .u-text-2 {
+    font-size: 0.75rem;
     margin-right: 0;
   }
 
   .u-section-5 .u-text-3 {
     width: 340px;
+    font-size: 0.75rem;
   }
 }

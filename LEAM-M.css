@@ -17,6 +17,7 @@
   text-shadow: 0px 0px 8px rgba(0,0,0,0.5);
   box-shadow: 0px 0px 0 0 rgba(0,0,0,0);
   font-weight: normal;
+  font-size: 1.125rem;
   margin: 22px auto 0;
 }
 
@@ -172,6 +173,7 @@
   text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
   line-height: 52.8px;
   font-weight: normal;
+  font-size: 3rem;
   margin: 45px 689px 0 0;
 }
 
@@ -520,7 +522,13 @@
   }
 
   .u-section-2 .u-text-1 {
+    font-size: 1rem;
+    font-weight: 700;
     margin-right: 0;
+  }
+
+  .u-section-2 .u-text-2 {
+    font-size: 0.75rem;
   }
 
   .u-section-2 .u-table-1 {
@@ -542,6 +550,7 @@
   text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
   line-height: 79.2px;
   font-weight: normal;
+  font-size: 4.5rem;
   margin: -209px calc(((100% - 1140px) / 2) + 544px) 0 calc(((100% - 1140px) / 2));
 }
 
@@ -549,6 +558,7 @@
   text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
   font-weight: 700;
   line-height: 39.6px;
+  font-size: 2.25rem;
   margin: 11px calc(((100% - 1140px) / 2) + 426px) 0 calc(((100% - 1140px) / 2));
 }
 
@@ -616,25 +626,30 @@
 
 @media (max-width: 575px) {
    .u-section-3 {
-    min-height: 200px;
+    min-height: 330px;
   }
 
   .u-section-3 .u-image-1 {
-    margin-top: 402px;
+    width: 168px;
+    height: 135px;
+    margin-top: 153px;
     margin-right: auto;
-    margin-left: calc(((100% - 1140px) / 2) + 401px);
+    margin-left: calc(((100% - 340px) / 2) + 2px);
   }
 
   .u-section-3 .u-text-1 {
-    margin-top: -42px;
-    margin-left: calc(((100% - 1140px) / 2) + 400px);
-    margin-right: calc(((100% - 1140px) / 2) + 400px);
+    font-size: 1.125rem;
+    width: 340px;
+    font-weight: 700;
+    margin-top: -239px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .u-section-3 .u-text-2 {
-    margin-top: 5px;
-    margin-left: calc(((100% - 1140px) / 2) + 400px);
-    margin-right: calc(((100% - 1140px) / 2) + 400px);
+    width: 340px;
+    font-size: 0.75rem;
+    margin: -21px auto 87px;
   }
 } .u-section-4 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("images/LeapM_block_3.jpg");
@@ -655,6 +670,7 @@
   line-height: 52.8px;
   font-weight: normal;
   text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+  font-size: 3rem;
   margin: -426px 544px 0 0;
 }
 
@@ -733,33 +749,50 @@
 
 @media (max-width: 575px) {
   .u-section-4 .u-sheet-1 {
-    min-height: 200px;
+    min-height: 563px;
   }
 
   .u-section-4 .u-image-1 {
     width: 170px;
     height: 331px;
-    margin-top: 215px;
-    margin-right: 90px;
+    margin-top: 199px;
+    margin-right: 0;
   }
 
   .u-section-4 .u-text-1 {
-    margin-top: -395px;
+    font-size: 1rem;
+    font-weight: 700;
+    width: auto;
+    margin-top: -509px;
   }
 
   .u-section-4 .u-text-2 {
-    margin-top: 5px;
-    margin-right: 0;
+    font-size: 0.75rem;
+    width: auto;
+    margin-top: -8px;
+    margin-right: 89px;
   }
 
   .u-section-4 .u-group-1 {
     width: 340px;
-    margin-bottom: 9px;
-    margin-left: 0;
+    margin-top: 50px;
+    margin-bottom: 0;
+    margin-left: -50px;
   }
 
   .u-section-4 .u-image-2 {
+    width: 140px;
+    height: 162px;
+    margin-top: 109px;
+    margin-right: 88px;
     margin-left: auto;
+  }
+
+  .u-section-4 .u-image-3 {
+    width: 144px;
+    height: 177px;
+    margin-top: -250px;
+    margin-left: 50px;
   }
 } .u-section-5 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("images/LeapM_block_4.jpg");
@@ -774,6 +807,7 @@
   line-height: 52.8px;
   font-weight: normal;
   text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+  font-size: 3rem;
   margin: 121px 782px 0 0;
 }
 
@@ -829,10 +863,13 @@
   }
 
   .u-section-5 .u-text-1 {
+    font-size: 1rem;
+    font-weight: 700;
     margin-right: 0;
   }
 
   .u-section-5 .u-text-2 {
+    font-size: 0.75rem;
     margin-top: 5px;
     margin-bottom: 24px;
   }
@@ -849,6 +886,7 @@
   line-height: 52.8px;
   font-weight: normal;
   text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+  font-size: 3rem;
   margin: 151px 570px 0 0;
 }
 
@@ -900,17 +938,23 @@
 
 @media (max-width: 575px) {
   .u-section-6 .u-sheet-1 {
-    min-height: 200px;
+    min-height: 466px;
   }
 
   .u-section-6 .u-text-1 {
+    font-size: 1rem;
+    width: auto;
+    font-weight: 700;
+    margin-top: 140px;
     margin-right: 0;
   }
 
   .u-section-6 .u-text-2 {
-    margin-top: 5px;
+    font-size: 0.75rem;
+    width: auto;
+    margin-top: 0;
     margin-right: 0;
-    margin-bottom: 24px;
+    margin-bottom: 40px;
   }
 } .u-section-7 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url("images/LeapM_block_6.jpg");
@@ -925,6 +969,7 @@
   line-height: 52.8px;
   font-weight: normal;
   text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+  font-size: 3rem;
   margin: 68px 0 0 541px;
 }
 
@@ -946,6 +991,10 @@
   width: 476px;
   min-height: 311px;
   margin: -352px 123px 60px auto;
+}
+
+.u-section-7 .u-container-layout-1 {
+  padding-top: 0;
 }
 
 .u-section-7 .u-image-2 {
@@ -1037,35 +1086,54 @@
 
 @media (max-width: 575px) {
   .u-section-7 .u-sheet-1 {
-    min-height: 163px;
+    min-height: 585px;
   }
 
   .u-section-7 .u-text-1 {
-    margin-top: 465px;
+    font-size: 1rem;
+    width: auto;
+    margin-top: 84px;
   }
 
   .u-section-7 .u-text-2 {
-    margin-top: 5px;
+    font-size: 0.75rem;
+    width: auto;
+    margin-top: 0;
+    margin-left: 53px;
   }
 
   .u-section-7 .u-image-1 {
-    margin-top: -462px;
+    width: 150px;
+    height: 292px;
+    margin-top: 3px;
+    margin-right: 0;
+    margin-left: auto;
   }
 
   .u-section-7 .u-group-1 {
-    width: 340px;
-    margin-right: 0;
-    margin-bottom: 50px;
+    min-height: 221px;
+    width: 199px;
+    margin-top: -268px;
+    margin-right: auto;
+    margin-left: 0;
   }
 
   .u-section-7 .u-image-2 {
-    width: 340px;
-    height: auto;
-    margin: initial;
+    width: 202px;
+    height: 196px;
+    left: auto;
+    bottom: auto;
+    right: auto;
+    top: auto;
+    margin: 8px auto 0 0;
   }
 
   .u-section-7 .u-image-3 {
-    margin-top: -118px;
+    width: 121px;
+    height: 107px;
+    margin-top: -107px;
+    margin-right: auto;
+    margin-left: 3px;
   }
 } .u-section-8 {
   background-image: url("images/LeapM_block_7.jpg");
@@ -1080,6 +1148,7 @@
   line-height: 52.8px;
   font-weight: normal;
   text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+  font-size: 3rem;
   margin: 151px 541px 0 0;
 }
 
@@ -1135,13 +1204,21 @@
 
 @media (max-width: 575px) {
   .u-section-8 .u-sheet-1 {
-    min-height: 200px;
+    min-height: 389px;
+  }
+
+  .u-section-8 .u-text-1 {
+    width: auto;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 49px;
   }
 
   .u-section-8 .u-text-2 {
-    margin-top: 5px;
-    margin-right: 0;
-    margin-bottom: 24px;
+    font-size: 0.75rem;
+    width: auto;
+    margin-top: 0;
+    margin-right: 100px;
   }
 } .u-section-9 {
   background-image: url("images/LeapM_block_8.jpg");
@@ -1156,6 +1233,7 @@
   line-height: 52.8px;
   font-weight: normal;
   text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+  font-size: 3rem;
   margin: 112px 386px 0 270px;
 }
 
@@ -1229,21 +1307,28 @@
 
 @media (max-width: 575px) {
   .u-section-9 .u-sheet-1 {
-    min-height: 209px;
+    min-height: 567px;
   }
 
   .u-section-9 .u-text-1 {
-    width: 340px;
+    width: auto;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 51px;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .u-section-9 .u-image-1 {
-    margin-top: -233px;
+    width: 156px;
+    height: 304px;
+    margin-top: 130px;
   }
 
   .u-section-9 .u-text-2 {
-    margin-top: -254px;
+    font-size: 0.75rem;
+    margin-top: -434px;
     margin-right: 0;
-    margin-bottom: 52px;
   }
 } .u-section-10 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url("images/LeapM_medical_kit.jpg");
@@ -1263,18 +1348,19 @@
 
 .u-section-10 .u-text-1 {
   text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+  text-align: left;
   line-height: 79.2px;
   font-weight: normal;
-  text-align: left;
+  font-size: 4.5rem;
   margin: -209px 544px 0 0;
 }
 
 .u-section-10 .u-text-2 {
   text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
-  font-weight: 700;
   line-height: 39.6px;
   text-align: left;
   font-size: 1.875rem;
+  font-weight: normal;
   margin: 11px 426px 0 0;
 }
 
@@ -1313,22 +1399,34 @@
   .u-section-10 .u-sheet-1 {
     min-height: 317px;
   }
-
-  .u-section-10 .u-text-1 {
-    margin-top: -209px;
-    margin-right: 0;
-    margin-left: 0;
-  }
-
-  .u-section-10 .u-text-2 {
-    margin-right: 0;
-    margin-left: 0;
-  }
 }
 
 @media (max-width: 575px) {
   .u-section-10 .u-sheet-1 {
-    min-height: 200px;
+    min-height: 330px;
+  }
+
+  .u-section-10 .u-image-1 {
+    width: 168px;
+    height: 135px;
+    margin-top: 75px;
+    margin-right: -20px;
+  }
+
+  .u-section-10 .u-text-1 {
+    width: auto;
+    line-height: 25.6px;
+    font-size: 1.125rem;
+    font-weight: 700;
+    margin-top: -36px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .u-section-10 .u-text-2 {
+    font-size: 0.75rem;
+    width: auto;
+    margin: 0 0 60px;
   }
 } .u-section-11 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/LeapM_block_9.jpg");
@@ -1351,6 +1449,7 @@
   line-height: 52.8px;
   font-weight: normal;
   text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+  font-size: 3rem;
   margin: -525px 610px 369px 26px;
 }
 
@@ -1402,18 +1501,22 @@
 
 @media (max-width: 575px) {
   .u-section-11 .u-sheet-1 {
-    min-height: 234px;
+    min-height: 650px;
   }
 
   .u-section-11 .u-text-1 {
-    margin-top: 641px;
+    font-size: 0.75rem;
+    width: auto;
+    margin-top: 60px;
     margin-left: 0;
   }
 
   .u-section-11 .u-text-2 {
-    margin-top: -948px;
-    margin-left: -34px;
-    margin-right: 196px;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: -520px;
+    margin-right: 0;
+    margin-bottom: 372px;
   }
 } .u-section-12 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/LeapM_block_10.jpg");
@@ -1428,6 +1531,7 @@
   line-height: 52.8px;
   font-weight: normal;
   text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+  font-size: 3rem;
   margin: 402px 636px 0 0;
 }
 
@@ -1483,18 +1587,23 @@
 
 @media (max-width: 575px) {
   .u-section-12 .u-sheet-1 {
-    min-height: 200px;
+    min-height: 500px;
   }
 
   .u-section-12 .u-text-1 {
-    margin-top: -202px;
+    width: auto;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 368px;
     margin-right: 0;
   }
 
   .u-section-12 .u-text-2 {
-    margin-top: 583px;
+    font-size: 0.75rem;
+    width: auto;
+    margin-top: 0;
     margin-right: 0;
-    margin-bottom: 0;
+    margin-bottom: 2px;
   }
 } .u-section-13 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("images/LeapM_block_111.jpg");
@@ -1509,6 +1618,7 @@
   line-height: 52.8px;
   font-weight: normal;
   text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+  font-size: 3rem;
   margin: 93px 430px 0 26px;
 }
 
@@ -1566,10 +1676,20 @@
 
 @media (max-width: 575px) {
   .u-section-13 .u-sheet-1 {
-    min-height: 200px;
+    min-height: 335px;
+  }
+
+  .u-section-13 .u-text-1 {
+    font-size: 1rem;
+    font-weight: 700;
+    width: auto;
+    margin-top: 138px;
   }
 
   .u-section-13 .u-text-2 {
+    font-size: 0.75rem;
+    width: auto;
+    margin-top: 0;
     margin-right: 0;
   }
 } .u-section-14 {
@@ -1584,6 +1704,7 @@
   line-height: 52.8px;
   font-weight: normal;
   text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+  font-size: 3rem;
   margin: 26px 26px 0;
 }
 
@@ -1636,6 +1757,11 @@
     min-height: 355px;
   }
 
+  .u-section-14 .u-text-1 {
+    font-size: 1rem;
+    font-weight: 700;
+  }
+
   .u-section-14 .u-image-1 {
     width: 340px;
     height: 173px;
@@ -1653,6 +1779,7 @@
   line-height: 52.8px;
   font-weight: normal;
   text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+  font-size: 3rem;
   margin: 327px 548px 0 0;
 }
 
@@ -1708,11 +1835,21 @@
 
 @media (max-width: 575px) {
   .u-section-15 .u-sheet-1 {
-    min-height: 209px;
+    min-height: 542px;
+  }
+
+  .u-section-15 .u-text-1 {
+    font-size: 1rem;
+    font-weight: 700;
+    width: auto;
+    margin-top: 224px;
   }
 
   .u-section-15 .u-text-2 {
+    font-size: 0.75rem;
+    width: auto;
     margin-right: 0;
+    margin-bottom: 60px;
   }
 } .u-section-16 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("images/LeapM_block_131.jpg");
@@ -1727,6 +1864,7 @@
   line-height: 52.8px;
   font-weight: normal;
   text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+  font-size: 3rem;
   margin: 501px 0 0 482px;
 }
 
@@ -1782,7 +1920,20 @@
 
 @media (max-width: 575px) {
   .u-section-16 .u-sheet-1 {
-    min-height: 200px;
+    min-height: 409px;
+  }
+
+  .u-section-16 .u-text-1 {
+    font-size: 1rem;
+    font-weight: 700;
+    width: auto;
+    margin-top: 60px;
+  }
+
+  .u-section-16 .u-text-2 {
+    font-size: 0.75rem;
+    width: auto;
+    margin-bottom: 60px;
   }
 } .u-section-17 {
   background-image: linear-gradient(0deg, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("images/LeapM_block_14.jpg");
@@ -1797,6 +1948,7 @@
   line-height: 52.8px;
   font-weight: normal;
   text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+  font-size: 3rem;
   margin: 54px 0 0 456px;
 }
 
@@ -1853,5 +2005,14 @@
 @media (max-width: 575px) {
   .u-section-17 .u-sheet-1 {
     min-height: 200px;
+  }
+
+  .u-section-17 .u-text-1 {
+    font-size: 1rem;
+    font-weight: 700;
+  }
+
+  .u-section-17 .u-text-2 {
+    font-size: 0.75rem;
   }
 }

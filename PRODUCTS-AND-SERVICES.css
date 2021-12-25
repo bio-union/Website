@@ -148,64 +148,24 @@
     grid-template-columns: repeat(4, calc(25% - 11.25px));
   }
 
-  .u-section-1 .u-container-layout-1 {
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  .u-section-1 .u-image-2 {
-    width: 196px;
-    margin-right: 9px;
-  }
-
   .u-section-1 .u-text-2 {
-    margin-left: 19px;
-    margin-right: 19px;
-  }
-
-  .u-section-1 .u-container-layout-2 {
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  .u-section-1 .u-image-4 {
-    width: 196px;
-    margin-right: 9px;
+    margin-right: 0;
+    margin-left: 0;
   }
 
   .u-section-1 .u-text-3 {
-    margin-left: 19px;
-    margin-right: 19px;
-  }
-
-  .u-section-1 .u-container-layout-3 {
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  .u-section-1 .u-image-6 {
-    width: 196px;
-    margin-right: 9px;
+    margin-right: 0;
+    margin-left: 0;
   }
 
   .u-section-1 .u-text-4 {
-    margin-left: 19px;
-    margin-right: 19px;
-  }
-
-  .u-section-1 .u-container-layout-4 {
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  .u-section-1 .u-image-8 {
-    width: 196px;
-    margin-right: 9px;
+    margin-right: 0;
+    margin-left: 0;
   }
 
   .u-section-1 .u-text-5 {
-    margin-left: 19px;
-    margin-right: 19px;
+    margin-right: 0;
+    margin-left: 0;
   }
 }
 
@@ -217,26 +177,6 @@
   .u-section-1 .u-repeater-1 {
     grid-template-columns: repeat(2, calc(50% - 7.5px));
   }
-
-  .u-section-1 .u-text-2 {
-    margin-right: 0;
-    margin-left: 0;
-  }
-
-  .u-section-1 .u-text-3 {
-    margin-right: 0;
-    margin-left: 0;
-  }
-
-  .u-section-1 .u-text-4 {
-    margin-right: 0;
-    margin-left: 0;
-  }
-
-  .u-section-1 .u-text-5 {
-    margin-right: 0;
-    margin-left: 0;
-  }
 }
 
 @media (max-width: 767px) {
@@ -246,6 +186,26 @@
 
   .u-section-1 .u-repeater-1 {
     grid-template-columns: 100%;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-1 .u-container-layout-2 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-1 .u-container-layout-3 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-1 .u-container-layout-4 {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 
