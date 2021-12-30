@@ -1619,7 +1619,7 @@
   font-weight: normal;
   text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
   font-size: 3rem;
-  margin: 93px 430px 0 26px;
+  margin: 456px 456px 0 0;
 }
 
 .u-section-13 .u-text-2 {
@@ -1627,7 +1627,7 @@
   line-height: 2.2;
   font-weight: 400;
   text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
-  margin: 11px 636px 60px 26px;
+  margin: 11px 662px 44px 0;
 }
 
 @media (max-width: 1199px) {
@@ -1637,12 +1637,10 @@
 
   .u-section-13 .u-text-1 {
     margin-right: 256px;
-    margin-left: 0;
   }
 
   .u-section-13 .u-text-2 {
     margin-right: 462px;
-    margin-left: 0;
   }
 }
 
