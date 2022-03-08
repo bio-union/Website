@@ -1,5 +1,5 @@
  .u-section-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url("images/vulcan_first_block-112.jpg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.45), rgba(0,0,0,0.45)), url("images/vulcan_first_block-113.jpg");
   background-position: 50% 50%;
 }
 
@@ -352,7 +352,6 @@
   }
 
   .u-section-2 .u-text-3 {
-    font-size: 0.75rem;
     margin-left: 0;
     margin-right: 0;
     margin-top: -465px;
@@ -1124,5 +1123,10 @@
   margin-bottom: 37px;
   min-height: 878px;
   margin-top: 37px;
-  height: auto;
+}
+
+@media (max-width: 1199px) {
+  .u-section-8 .u-custom-html-1 {
+    height: auto;
+  }
 }
